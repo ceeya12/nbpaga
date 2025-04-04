@@ -1,0 +1,38 @@
+#root {
+  width: 100%;
+  text-align: center;
+}
+
+/* Desktop layout - side by side */
+@media (min-width: 769px) {
+  .carousel-section {
+    padding-right: 1rem;
+  }
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+  .carousel-section,
+  .right-section {
+    flex: 0 0 100% !important; /* Force full width */
+    padding: 0; /* Remove all padding for full width */
+  }
+
+  .right-section {
+    order: -1; /* Places it above carousel */
+    padding: 1rem; /* Keep internal padding for content */
+  }
+
+  .carousel-item img {
+    height: 250px; /* Adjusted height for mobile */
+    object-fit: cover;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+}

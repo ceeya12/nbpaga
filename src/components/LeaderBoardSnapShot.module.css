@@ -1,0 +1,58 @@
+/* LeaderBoardSnapShot.module.css */
+
+/* Background for the "All Players" header */
+.allPlayersHeader {
+    background: linear-gradient(to right, #C8102E, #003087); /* Red to Blue gradient from the logo */
+    color: white; /* White text to match the logo's background */
+    padding: 10px 15px;
+    border-radius: 5px 5px 0 0; /* Rounded top corners */
+    margin-bottom: 0; /* Remove gap between header and table */
+}
+
+/* Custom table styling */
+.customTable {
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Table header styling */
+.customTable thead {
+    background-color: #C8102E; /* Red from the logo */
+    color: white; /* White text for contrast */
+}
+
+/* Table header cells */
+.customTable th {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    padding: 10px;
+    border: 1px solid #003087; /* Blue border from the logo */
+}
+
+/* Table body rows */
+.customTable tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+/* Striped rows with a lighter green shade inspired by the logo */
+.customTable tbody tr:nth-child(even) {
+    background-color: #E6F4EA; /* Light green inspired by the logo's green wave */
+}
+
+/* Hover effect on rows */
+.customTable tbody tr:hover {
+    background-color: #D3E4F5; /* Light blue inspired by the logo's blue */
+}
+
+/* Table cells */
+.customTable td {
+    vertical-align: middle;
+    padding: 8px;
+    border: 1px solid #003087; /* Blue border from the logo */
+    /* Removed color: #003087; to revert to default black font */
+}
+
+/* Style the change arrows */
+.customTable td span {
+    color: #00A859; /* Green for the arrows, matching the logo's green wave */
+}

@@ -1,0 +1,128 @@
+.footer {
+    background-color: #fff;
+    padding: 2rem 0;
+    border-top: 1px solid #000;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.footer-logo-img {
+    width: 80px;
+    height: auto;
+}
+
+.footer h5 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.app-link {
+    display: flex;
+    align-items: center;
+}
+
+.app-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+}
+
+.tourcast-impact {
+    margin-top: 1rem;
+}
+
+.footer-bottom {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid black;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-links li a {
+    color: #007bff;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+
+}
+
+.social-icons li {
+    margin: 0;
+}
+
+.social-icons li a {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.social-icons li a:hover {
+    color: #007bff;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .footer-logo {
+        text-align: center;
+    }
+
+    .footer h5 {
+        font-size: 0.9rem;
+    }
+
+    .footer ul li {
+        font-size: 0.85rem;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .footer-links {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,20 @@
+.card-dimensions{
+    height: 70px;
+}
+.weather-ctn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.weather-title{
+    margin-top: -13px;
+    font-size: x-small;
+}
+.weather-text{
+    font-size: x-small;
+}
+.weather-icon{
+    margin-top: -10px;
+    height: 40px;
+}
+

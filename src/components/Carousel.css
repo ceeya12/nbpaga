@@ -1,0 +1,158 @@
+.vertical-carousel-container {
+    max-width: 300px; /* Limit width for small cards */
+    margin: 0 auto; /* Center the carousel */
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.custom-text {
+    display: flex;
+    flex-wrap: nowrap; /* Prevents wrapping to the next line */
+}
+.custom-back
+
+/*.vertical-carousel-container h4 {*/
+/*    font-size: 1.5rem;*/
+/*    font-weight: bold;*/
+/*    color: #333;*/
+/*    text-align: center;*/
+/*    margin-bottom: 1rem;*/
+/*}*/
+
+/*!* Style the carousel *!*/
+/*.carousel {*/
+/*    height: 250px; !* Fixed height for vertical scrolling *!*/
+/*    overflow: hidden; !* Hide overflow *!*/
+/*}*/
+
+/*!* Style each carousel item *!*/
+/*.carousel-item {*/
+/*    height: 250px; !* Match carousel height *!*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    transition: transform 0.5s ease; !* Smooth transition *!*/
+/*}*/
+
+/*!* Style the tournament card *!*/
+/*.tournament-card {*/
+/*    background-color: #fff;*/
+/*    border: 1px solid #ddd;*/
+/*    border-radius: 8px;*/
+/*    padding: 1rem;*/
+/*    width: 100%;*/
+/*    max-width: 250px; !* Small card size *!*/
+/*    text-align: center;*/
+/*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*.tournament-card h5 {*/
+/*    font-size: 1.2rem;*/
+/*    color: #333;*/
+/*    margin-bottom: 0.5rem;*/
+/*}*/
+
+/*.tournament-card p {*/
+/*    font-size: 0.9rem;*/
+/*    color: #666;*/
+/*    margin: 0.3rem 0;*/
+/*}*/
+
+/*.tournament-card .signup-link {*/
+/*    display: inline-block;*/
+/*    margin-top: 0.5rem;*/
+/*    color: #dc3545; !* Bootstrap danger color *!*/
+/*    text-decoration: none;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.tournament-card .signup-link:hover {*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*!* Vertical orientation adjustments *!*/
+/*.carousel-inner {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    height: 100%;*/
+/*}*/
+
+/*.carousel-item-next,*/
+/*.carousel-item-prev,*/
+/*.carousel-item.active {*/
+/*    display: block; !* Ensure items are visible *!*/
+/*}*/
+
+/*!* Customize controls *!*/
+/*.carousel-control-prev,*/
+/*.carousel-control-next {*/
+/*    width: 10%;*/
+/*    color: #333;*/
+/*    opacity: 0.7;*/
+/*}*/
+
+/*.carousel-control-prev-icon,*/
+/*.carousel-control-next-icon {*/
+/*    background-color: #333;*/
+/*    border-radius: 50%;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*}*/
+
+/*.carousel-control-prev {*/
+/*    top: -10px;*/
+/*    bottom: auto;*/
+/*}*/
+
+/*.carousel-control-next {*/
+/*    bottom: -10px;*/
+/*    top: auto;*/
+/*}*/
+
+/*!* Customize indicators *!*/
+/*.carousel-indicators {*/
+/*    bottom: -30px; !* Position below carousel *!*/
+/*    margin: 0;*/
+/*}*/
+
+/*.carousel-indicators li {*/
+/*    background-color: #666;*/
+/*    width: 8px;*/
+/*    height: 8px;*/
+/*    border-radius: 50%;*/
+/*}*/
+
+/*.carousel-indicators .active {*/
+/*    background-color: #dc3545;*/
+/*}*/
+
+/*!* Responsive adjustments *!*/
+/*@media (max-width: 576px) {*/
+/*    .vertical-carousel-container {*/
+/*        max-width: 100%;*/
+/*        padding: 0.5rem;*/
+/*    }*/
+
+/*    .carousel {*/
+/*        height: 200px;*/
+/*    }*/
+
+/*    .carousel-item {*/
+/*        height: 200px;*/
+/*    }*/
+
+/*    .tournament-card {*/
+/*        max-width: 200px;*/
+/*        padding: 0.75rem;*/
+/*    }*/
+
+/*    .tournament-card h5 {*/
+/*        font-size: 1rem;*/
+/*    }*/
+
+/*    .tournament-card p {*/
+/*        font-size: 0.8rem;*/
+/*    }*/
+/*}*/
+

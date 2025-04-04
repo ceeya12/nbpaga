@@ -1,0 +1,258 @@
+.about-us {
+    padding: 2rem 0;
+    margin-top: 1rem;
+}
+
+.about-us-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.about-us {
+    padding: 2rem 0;
+    margin-top: 1rem;
+}
+
+.about-us-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Photo Collage Styling */
+.photo-collage {
+    position: relative;
+    height: 400px; /* Adjust height as needed */
+    width: 100%;
+    max-width: 500px; /* Limit max width for larger screens */
+    margin: 0 auto; /* Center the collage */
+    display: flex;
+    justify-content: center; /* Center contents horizontally */
+}
+
+.collage-image {
+    position: absolute;
+    width: 200px; /* Default size for images */
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.collage-image:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+    z-index: 10;
+}
+
+/* Positioning for each image - Centered with offsets */
+.collage-image-1 {
+    top: 0;
+    left: 25%;
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+.collage-image-2 {
+    top: 50px;
+    left: 40%;
+    transform: translateX(-20%); /* Slight offset from center */
+}
+
+.collage-image-3 {
+    top: 190px;
+    left: 30%;
+    transform: translateX(-60%); /* Offset to the left */
+}
+
+.collage-image-4 {
+    top: 100px;
+    left: 45%;
+    transform: translateX(40%); /* Offset to the right */
+}
+
+.collage-image-5 {
+    top: 240px;
+    left: 50%;
+    transform: translateX(-30%); /* Slight offset */
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .photo-collage {
+        height: 300px; /* Reduce height on smaller screens */
+        max-width: 100%;
+    }
+
+    .collage-image {
+        width: 100px; /* Smaller images on mobile */
+        height: 100px;
+    }
+
+    /* Adjust positioning for mobile */
+    .collage-image-1 {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .collage-image-2 {
+        top: 30px;
+        left: 50%;
+        transform: translateX(-20%);
+    }
+
+    .collage-image-3 {
+        top: 120px;
+        left: 50%;
+        transform: translateX(-60%);
+    }
+
+    .collage-image-4 {
+        top: 70px;
+        left: 50%;
+        transform: translateX(40%);
+    }
+
+    .collage-image-5 {
+        top: 150px;
+        left: 50%;
+        transform: translateX(-30%);
+    }
+}
+
+@media (max-width: 576px) {
+    .photo-collage {
+        height: 250px;
+    }
+
+    .collage-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* Further adjust for very small screens */
+    .collage-image-2 {
+        transform: translateX(-20%);
+    }
+
+    .collage-image-4 {
+        transform: translateX(40%);
+    }
+
+    .collage-image-5 {
+        transform: translateX(-30%);
+    }
+}
+/*!* Photo Collage Styling *!*/
+/*.photo-collage {*/
+/*    position: relative;*/
+/*    height: 400px; !* Adjust height as needed *!*/
+/*    width: 100%;*/
+/*    max-width: 500px; !* Limit max width for larger screens *!*/
+/*    margin: 0 auto; !* Center the collage *!*/
+/*}*/
+
+/*.collage-image {*/
+/*    position: absolute;*/
+/*    width: 200px; !* Default size for images *!*/
+/*    height: 200px;*/
+/*    object-fit: cover;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
+/*    transition: transform 0.3s ease;*/
+/*}*/
+
+/*.collage-image:hover {*/
+/*    transform: scale(1.1); !* Slight zoom on hover *!*/
+/*    z-index: 10;*/
+/*}*/
+
+/*!* Positioning for each image *!*/
+/*.collage-image-1 {*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*}*/
+
+/*.collage-image-2 {*/
+/*    top: 50px;*/
+/*    left: 170px;*/
+/*}*/
+
+/*.collage-image-3 {*/
+/*    top: 190px;*/
+/*    left: 20px;*/
+/*}*/
+
+/*.collage-image-4 {*/
+/*    top: 100px;*/
+/*    left: 320px;*/
+/*}*/
+
+/*.collage-image-5 {*/
+/*    top: 240px;*/
+/*    left: 180px;*/
+/*}*/
+
+/*!* Responsive Design for Mobile *!*/
+/*@media (max-width: 768px) {*/
+/*    .photo-collage {*/
+/*        height: 300px; !* Reduce height on smaller screens *!*/
+/*        max-width: 100%;*/
+/*    }*/
+
+/*    .collage-image {*/
+/*        width: 100px; !* Smaller images on mobile *!*/
+/*        height: 100px;*/
+/*    }*/
+
+/*    !* Adjust positioning for mobile *!*/
+/*    .collage-image-1 {*/
+/*        top: 0;*/
+/*        left: 0;*/
+/*    }*/
+
+/*    .collage-image-2 {*/
+/*        top: 30px;*/
+/*        left: 80px;*/
+/*    }*/
+
+/*    .collage-image-3 {*/
+/*        top: 120px;*/
+/*        left: 10px;*/
+/*    }*/
+
+/*    .collage-image-4 {*/
+/*        top: 70px;*/
+/*        left: 120px;*/
+/*    }*/
+
+/*    .collage-image-5 {*/
+/*        top: 150px;*/
+/*        left: 90px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 576px) {*/
+/*    .photo-collage {*/
+/*        height: 250px;*/
+/*    }*/
+
+/*    .collage-image {*/
+/*        width: 80px;*/
+/*        height: 80px;*/
+/*    }*/
+
+/*    !* Further adjust for very small screens *!*/
+/*    .collage-image-2 {*/
+/*        left: 60px;*/
+/*    }*/
+
+/*    .collage-image-4 {*/
+/*        left: 100px;*/
+/*    }*/
+
+/*    .collage-image-5 {*/
+/*        left: 70px;*/
+/*    }*/
+/*}*/
