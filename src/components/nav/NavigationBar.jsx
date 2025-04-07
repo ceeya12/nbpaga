@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import { FaUser, FaSearch } from 'react-icons/fa';
 import WeatherWidget from "../WeatherWidget.jsx"; // For icons
 // import NavLink from "react-router-dom";
-import nbpagaLogo from "/src/assets/nbpaga_logo.jpg";
+import nbpagaLogo from "/src/assets/homepage_img/nbpaga_logo.jpg";
 
 
 function NavigationBar() {
