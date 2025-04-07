@@ -18,12 +18,12 @@ function App() {
             <NavigationBar/>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<HomePage />}></Route>
-                    <Route path="/about-us" element={<AboutPage />}></Route>
-                    <Route path="/schedule"></Route>
-                    <Route path="/results"></Route>
-                    <Route path="/board-of-directors" element={<BoardMembers />}></Route>
-                    <Route path="/articles-of-regulations"></Route>
+                    <Route path="/nbpaga" element={<HomePage />}></Route>
+                    <Route path="/nbpaga/about-us" element={<AboutPage />}></Route>
+                    <Route path="/nbpaga/schedule"></Route>
+                    <Route path="/nbpaga/results"></Route>
+                    <Route path="/nbpaga/board-of-directors" element={<BoardMembers />}></Route>
+                    <Route path="/nbpaga/articles-of-regulations"></Route>
                 </Routes>
             </BrowserRouter>
             <Footer/>
