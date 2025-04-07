@@ -3,6 +3,7 @@ import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import { FaUser, FaSearch } from 'react-icons/fa';
 import WeatherWidget from "../WeatherWidget.jsx"; // For icons
 // import NavLink from "react-router-dom";
+import nbpagaLogo from "/src/assets/nbpaga_logo.jpg";
 
 
 function NavigationBar() {
@@ -12,7 +13,7 @@ function NavigationBar() {
             {/* Logo */}
                 <Navbar.Brand href="/">
                     <img
-                        src="../../nbpaga_logo.jpg" // Ensure this path is correct
+                        src={nbpagaLogo} // Ensure this path is correct
                         alt="NBPAGA Logo"
                         height="40"
                         className="d-inline-block align-top"
@@ -28,14 +29,14 @@ function NavigationBar() {
                     <Nav className="ms-auto align-items-center">
 
                         {/* Home (Active/Underlined) */}
-                        <Nav.Link href="/" className="text-dark border-bottom border-dark border-2">
+                        <Nav.Link href="/nbpaga" className="text-dark border-bottom border-dark border-2">
                             Home
                         </Nav.Link>
-                        <Nav.Link href="/about-us" className="text-dark">About Us</Nav.Link>
-                        <Nav.Link href="/schedule" className="text-dark">Schedule</Nav.Link>
-                        <Nav.Link href="/results" className="text-dark">Results</Nav.Link>
-                        <Nav.Link href="/board-of-directors" className="text-dark">Board Of Directors</Nav.Link>
-                        <Nav.Link href="/articles-of-regulations" className="text-dark">Articles of Regulations</Nav.Link>
+                        <Nav.Link href="/nbpaga/about-us" className="text-dark">About Us</Nav.Link>
+                        <Nav.Link href="/nbpaga/schedule" className="text-dark">Schedule</Nav.Link>
+                        <Nav.Link href="/nbpaga/results" className="text-dark">Results</Nav.Link>
+                        <Nav.Link href="/nbpaga/board-of-directors" className="text-dark">Board Of Directors</Nav.Link>
+                        <Nav.Link href="/nbpaga/articles-of-regulations" className="text-dark">Articles of Regulations</Nav.Link>
 
                         {/* More Dropdown */}
                         <NavDropdown title="More" id="more-dropdown" className="text-dark">
