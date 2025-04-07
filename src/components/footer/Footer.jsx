@@ -20,7 +20,7 @@ function Footer() {
                         <ul>
                             <li><a href="src/components/footer/Footer.jsx#">About</a></li>
                             <li><a href="src/components/footer/Footer.jsx#">Careers</a></li>
-                            <li><a href="src/components/footer/Footer.jsx#">TPC Network</a></li>
+                            <li><a href="src/components/footer/Footer.jsx#">PAGA Network</a></li>
                             <li><a href="src/components/footer/Footer.jsx#">Contact</a></li>
                         </ul>
                     </Col>
@@ -31,7 +31,6 @@ function Footer() {
                         <ul>
                             <li><a href="src/components/footer/Footer.jsx#">Marketing Partners</a></li>
                             <li><a href="src/components/footer/Footer.jsx#">Affiliates</a></li>
-                            <li><a href="src/components/footer/Footer.jsx#">Media</a></li>
                             <li><a href="src/components/footer/Footer.jsx#">Advertise</a></li>
                         </ul>
                     </Col>
@@ -40,12 +39,10 @@ function Footer() {
                     <Col md={2} sm={6} xs={12} className="mb-4">
                         <h5>Quick Links</h5>
                         <ul>
-                            <li><a href="src/components/footer/Footer.jsx#">PGA TOUR LIVE</a></li>
                             <li><a href="src/components/footer/Footer.jsx#">Payne Stewart Award</a></li>
                             <li><a href="src/components/footer/Footer.jsx#">Fan Council</a></li>
                             <li><a href="src/components/footer/Footer.jsx#">Newsletters</a></li>
                             <li><a href="src/components/footer/Footer.jsx#">What's New</a></li>
-                            <li><a href="src/components/footer/Footer.jsx#">PGA TOUR Studios</a></li>
                         </ul>
                     </Col>
 
@@ -58,10 +55,8 @@ function Footer() {
                         </ul>
                         <h5 className="mt-3">Shop</h5>
                         <ul>
-                            <li><a href="src/components/footer/Footer.jsx#">Fan Shop</a></li>
-                            <li><a href="src/components/footer/Footer.jsx#">Superstore</a></li>
+                            <li><a href="src/components/footer/Footer.jsx#">PAGA Shop</a></li>
                             <li><a href="src/components/footer/Footer.jsx#">Tickets</a></li>
-                            <li><a href="src/components/footer/Footer.jsx#">Mastercard Tickets</a></li>
                         </ul>
                     </Col>
 
@@ -71,25 +66,21 @@ function Footer() {
                         <ul>
                             <li className="app-link">
                                 <img src="https://fakeimg.pl/20x20" alt="App Icon" className="app-icon" />
-                                <a href="src/components/footer/Footer.jsx#">PGA TOUR</a>
-                            </li>
-                            <li className="app-link">
-                                <img src="https://fakeimg.pl/20x20" alt="App Icon" className="app-icon" />
-                                <a href="src/components/footer/Footer.jsx#">PGA TOUR Vision</a>
+                                <a href="src/components/footer/Footer.jsx#">Starter Shack</a>
                             </li>
                         </ul>
                     </Col>
                 </Row>
 
                 {/* TOURCAST and Impact */}
-                <Row className="tourcast-impact">
-                    <Col md={2} sm={6} xs={12} lg={12}>
-                        <h5>TOURCAST</h5>
-                        <ul>
-                            <li><a href="src/components/footer/Footer.jsx#">Impact</a></li>
-                        </ul>
-                    </Col>
-                </Row>
+                {/*<Row className="tourcast-impact">*/}
+                {/*    <Col md={2} sm={6} xs={12} lg={12}>*/}
+                {/*        <h5>TOURCAST</h5>*/}
+                {/*        <ul>*/}
+                {/*            <li><a href="src/components/footer/Footer.jsx#">Impact</a></li>*/}
+                {/*        </ul>*/}
+                {/*    </Col>*/}
+                {/*</Row>*/}
 
                 {/* Footer Bottom */}
                 <Row className="footer-bottom">

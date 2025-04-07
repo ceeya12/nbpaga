@@ -3,9 +3,14 @@ import CarouselPictures from "../components/CarouselPictures.jsx"
 import "../components/Carousel.css";
 import AboutCTN from "../components/AboutCTN.jsx";
 import NewsSection from "../components/NewsSection.jsx";
-import {Card, Col, Container, Image, Row, Table} from "react-bootstrap";
+import {Card, Col, Container, Image, Row} from "react-bootstrap";
 import LeaderBoardSnapShot from "../components/LeaderBoardSnapShot";
-import styles from "../components/LeaderBoardSnapShot.module.css";
+import styles from "/src/components/LeaderBoardSnapShot.module.css";
+
+import scholarship_img from '/src/assets/homepage_img/scholarship_img.jpg'
+import nonprofitseal from '/src/assets/homepage_img/nonprofit-seal.png';
+import golfNewsImage from '/src/assets/homepage_img/golf_news_img.jpeg';
+import nbpagaLogo from '/src/assets/homepage_img/NPAGA-logo-200.png';
 
 const otherNews = [{
     id: 1,
@@ -196,7 +201,9 @@ const playersFourthFlight = [
 function HomePage() {
     return (
         <div>
+            {/*Carousel Images*/}
             <CarouselPictures/>
+            {/*About Us CTN*/}
             <AboutCTN/>
             {/*Latest News CTN*/}
             <NewsSection>
@@ -232,7 +239,7 @@ function HomePage() {
                                         </Card.Text>
                                     </div>
                                     <div className="ms-auto">
-                                        <Card.Img src="/src/assets/homepage_img/scholarship_img.jpg" variant="bottom"/>
+                                        <Card.Img src={scholarship_img} variant="bottom"/>
                                     </div>
                                 </Card.Body>
                                 <h3><em>Deadline to Apply is June 6, 2025</em></h3>
@@ -275,7 +282,7 @@ function HomePage() {
                                         </Card.Text>
                                     </div>
                                     <div className="ms-auto">
-                                        <Card.Img src="/src/assets/homepage_img/nonprofit-seal.png" variant="bottom"/>
+                                        <Card.Img src={nonprofitseal} variant="bottom"/>
                                     </div>
                                 </Card.Body>
                                 <a href="https://docs.google.com/document/d/1D2HUOkbOXPnqycmM6QW-37R3fspiG7m7S3tc9MMstJ8/edit?usp=sharing">
@@ -322,7 +329,7 @@ function HomePage() {
                             <Card className="main-news-card">
                                 <Card.Img
                                     variant="top"
-                                    src="/src/assets/homepage_img/golf_news_img.jpeg"
+                                    src={golfNewsImage}
                                     alt="Main news"
                                     className="main-news-image"
                                 />
@@ -341,7 +348,7 @@ function HomePage() {
                                         </a>
                                     </div>
                                     <Image
-                                        src="/src/assets/homepage_img/NPAGA-logo-200.png"
+                                        src={nbpagaLogo}
                                         alt="Side news 1"
                                         rounded
                                         className="side-news-image"
@@ -358,7 +365,7 @@ function HomePage() {
                                     </div>
 
                                     <Image
-                                        src="/src/assets/homepage_img/NPAGA-logo-200.png"
+                                        src={nbpagaLogo}
                                         alt="Side news 2"
                                         rounded
                                         className="side-news-image"
@@ -375,7 +382,7 @@ function HomePage() {
                                     </div>
 
                                     <Image
-                                        src="/src/assets/homepage_img/NPAGA-logo-200.png"
+                                        src={nbpagaLogo}
                                         alt="Side news 2"
                                         rounded
                                         className="side-news-image"

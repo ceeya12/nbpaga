@@ -2,6 +2,13 @@ import React from 'react';
 import {Container, Row, Col, Card, Image} from 'react-bootstrap';
 import './AboutCTN.css'; // Custom CSS for styling
 
+import collage01 from "../assets/aboutus_pics/collage01.jpg";
+import collage02 from "../assets/aboutus_pics/collage02.jpg";
+import collage03 from "../assets/aboutus_pics/collage03.jpg";
+import collage04 from "../assets/aboutus_pics/collage04.jpg";
+import collage05 from "../assets/aboutus_pics/collage05.jpg";
+
+
 function AboutCTN() {
     return (
         <Container fluid className="about-us p-3">
@@ -44,27 +51,27 @@ function AboutCTN() {
                         {/* Photo Collage */}
                         <div className="photo-collage">
                             <Image
-                                src="/src/assets/aboutus_pics/collage01.jpg"
+                                src={collage01}
                                 alt="Golf Photo 1"
                                 className="collage-image collage-image-1"
                             />
                             <Image
-                                src="/src/assets/aboutus_pics/collage02.jpg"
+                                src={collage02}
                                 alt="Golf Photo 2"
                                 className="collage-image collage-image-2"
                             />
                             <Image
-                                src="/src/assets/aboutus_pics/collage03.jpg"
+                                src={collage03}
                                 alt="Golf Photo 3"
                                 className="collage-image collage-image-3"
                             />
                             <Image
-                                src="/src/assets/aboutus_pics/collage04.jpg"
+                                src={collage04}
                                 alt="Golf Photo 4"
                                 className="collage-image collage-image-4"
                             />
                             <Image
-                                src="/src/assets/aboutus_pics/collage05.jpg"
+                                src={collage05}
                                 alt="Golf Photo 5"
                                 className="collage-image collage-image-5"
                             />

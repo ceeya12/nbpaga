@@ -4,8 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavigationBar from "./components/nav/NavigationBar.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import axios from "axios";
-import {useEffect} from "react";
+
 
 //Pages
 import HomePage from "./pages/HomePage.jsx";

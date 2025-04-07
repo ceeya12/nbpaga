@@ -3,6 +3,11 @@ import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import "./Carousel.css";
 
+import homepage01 from '../assets/homepage_img/homepage_01.jpg';
+import homepage02 from '../assets/homepage_img/homepage_02.jpg';
+import homepage03 from '../assets/homepage_img/homepage_03.jpg';
+
+
 
 const upcomingTournaments = [{
     id: 1,
@@ -84,7 +89,7 @@ function CarouselPictures() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="/src/assets/homepage_img/homepage_01.jpg"
+                            src={homepage01}
                             alt="First slide"
                             style={{height: '400px', objectFit: 'cover'}}
                         />
@@ -92,7 +97,7 @@ function CarouselPictures() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="/src/assets/homepage_img/homepage_02.jpg"
+                            src={homepage02}
                             alt="Second slide"
                             style={{height: '400px', objectFit: 'cover'}}
                         />
@@ -100,7 +105,7 @@ function CarouselPictures() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="/src/assets/homepage_img/homepage_03.jpg"
+                            src={homepage03}
                             alt="Third slide"
                             style={{height: '400px', objectFit: 'cover'}}
                         />
