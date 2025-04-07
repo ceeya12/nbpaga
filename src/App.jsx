@@ -20,7 +20,7 @@ function App() {
             <BrowserRouter>
                 <Routes>
                     <Route path="/nbpaga/" element={<HomePage />}></Route>
-                    <Route path="/nbpaga/about-us" element={<AboutPage />}></Route>
+                    <Route path="/about-us" element={<AboutPage />}></Route>
                     <Route path="/nbpaga/schedule"></Route>
                     <Route path="/nbpaga/results"></Route>
                     <Route path="/nbpaga/board-of-directors" element={<BoardMembers />}></Route>
