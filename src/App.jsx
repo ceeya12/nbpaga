@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavigationBar from "./components/nav/NavigationBar.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-
+// import axios from "axios";
+// import {useEffect} from "react";
 
 //Pages
 import HomePage from "./pages/HomePage.jsx";
@@ -18,7 +19,7 @@ function App() {
             <NavigationBar/>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/nbpaga" element={<HomePage />}></Route>
+                    <Route path="/nbpaga/" element={<HomePage />}></Route>
                     <Route path="/nbpaga/about-us" element={<AboutPage />}></Route>
                     <Route path="/nbpaga/schedule"></Route>
                     <Route path="/nbpaga/results"></Route>
